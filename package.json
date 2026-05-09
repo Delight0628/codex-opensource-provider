@@ -1,0 +1,38 @@
+{
+  "name": "codex-opensource-provider",
+  "version": "1.0.0",
+  "description": "Codex Desktop proxy gateway for local open-source reasoning models (vLLM)",
+  "main": "codex-proxy.js",
+  "type": "module",
+  "scripts": {
+    "start": "node codex-proxy.js",
+    "dev": "node --watch codex-proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codex",
+    "proxy",
+    "vllm",
+    "openai",
+    "responses-api",
+    "chat-completions",
+    "qwen",
+    "deepseek",
+    "kimi",
+    "llm",
+    "ai"
+  ],
+  "author": "Delight0628",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Delight0628/codex-opensource-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Delight0628/codex-opensource-provider/issues"
+  },
+  "homepage": "https://github.com/Delight0628/codex-opensource-provider#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
